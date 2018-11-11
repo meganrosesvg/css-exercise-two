@@ -1,0 +1,70 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px; /*100%*/
+}
+
+h1 {
+  font-size: 1.5em; /*24px*/
+}
+
+h3{
+  font-size: 1.25em; /*20px*/
+}
+
+p {
+  font-size: 100%; /*16px*/
+  line-height: 1.2;
+}
+
+nav {
+  background-color: rgba(0,0,0,.5);
+  float: left;
+  position: fixed;
+  width: 100%;
+}
+
+a { /*links not underlined!*/
+  text-decoration: none;
+}
+
+a:link { color:#000000; } /*unvisited link*/
+
+a:visited { color:#ffffff; } /*visited link*/
+
+.logo { /*bloc logo*/
+  margin: 20px;
+  width: 100px;
+}
+
+.medium-pic { /*Draplin and Chris*/
+  width: 70%;
+}
+
+.left, .right {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+
+li {
+  float: right;
+  padding: 30px;
+}
+
+article {
+  padding-top: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
