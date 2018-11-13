@@ -6,15 +6,20 @@ body {
 
 h1 {
   font-size: 1.5em; /*24px*/
+  margin-bottom: 1%;
+  margin-top: 2%;
 }
 
-h3{
+h3 {
   font-size: 1.25em; /*20px*/
+  margin-bottom: 2%;
+  margin-top: 2%;
 }
 
 p {
   font-size: 100%; /*16px*/
   line-height: 1.2;
+  margin-bottom: 2%;
 }
 
 nav {
@@ -24,6 +29,10 @@ nav {
   width: 100%;
 }
 
+figcaption {
+  margin-bottom: 1%;
+}
+
 a { /*links not underlined!*/
   text-decoration: none;
 }
@@ -31,6 +40,8 @@ a { /*links not underlined!*/
 a:link { color:#000000; } /*unvisited link*/
 
 a:visited { color:#ffffff; } /*visited link*/
+
+a:hover { color:#dadada; } /*hover on link*/
 
 .logo { /*bloc logo*/
   margin: 20px;
